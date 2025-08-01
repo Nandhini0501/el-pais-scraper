@@ -11,3 +11,13 @@
 
 ##  Run the Project
 
+Screenshot of the build running:  
+[View Screenshot](https://drive.google.com/file/d/your-screenshot-id/view)
+
+---
+
+### Features:
+- Scrapes title + content
+- Translates using LibreTranslate API
+- Downloads image if available
+- Works in both desktop and mobile view via Selenium
