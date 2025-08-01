@@ -14,6 +14,12 @@
 Screenshot of the build running:  
 [View Screenshot](https://drive.google.com/file/d/your-screenshot-id/view)
 
+BrowserStack Automate Build link:
+https://automate.browserstack.com/projects/Default+Project/builds/ElPais+Parallel+Test/1
+
+Git hub repo link:
+https://github.com/Nandhini0501/el-pais-scraper 
+
 ---
 
 ### Features:
