@@ -38,13 +38,6 @@ async function scrapeArticles() {
       if (href && !articleLinks.includes(href)) {
         articleLinks.push(href);
       }
-      try {
-        const linkElement = await articles[i].findElement(By.css('a'));
-        const href = await linkElement.getAttribute('href');
-        articleLinks.push(href);
-      } catch (e) {
-        console.log(`Couldn't extract link for article ${i + 1}: ${e.message}`);
-      }
     }
 
     // Ensure the images directory exists
